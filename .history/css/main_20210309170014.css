@@ -668,10 +668,13 @@
 
 
 /* article */
+:root {
+    --article-background: url(../images/download-22.jpg) no-repeat;
+}
 
 .article {
     position: relative;
-    background: url(../images/download-22.jpg) no-repeat;
+    background: var(--article-background);
     background-size: cover;
 }
 
