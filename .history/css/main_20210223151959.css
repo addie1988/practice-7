@@ -1,0 +1,28 @@
+:root {
+    --header-background: black;
+    --bg-light : black !important;
+    --menu-color: rgb(255, 255, 255);;
+}
+
+
+/* header */
+.header {
+    background-color: var(--header-background);
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.header-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content .col-6:nth-child(2) .bg-light {
+    background-color: var(--bg-light) !important;
+}
+
+#navbarNavDropdown ul li a {
+    color: var(--menu-color)
+}

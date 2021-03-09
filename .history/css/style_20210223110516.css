@@ -1,0 +1,9 @@
+:root {
+    --header-background: black;
+}
+
+
+/* header */
+.header {
+    background-color: var(--header-background);
+}

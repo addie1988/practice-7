@@ -1,0 +1,28 @@
+:root {
+    --header-background: black;
+    --bg-light : black !important;
+    --menu-color: white;
+}
+
+
+/* header */
+.header {
+    background-color: var(--header-background);
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.header-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content .col-6:nth-child(2) .bg-light {
+    background-color: var(--bg-light) !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+
+}
