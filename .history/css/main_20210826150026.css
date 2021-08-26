@@ -2243,7 +2243,6 @@
 .footer-bottom-content ul li {
     animation: footer-bottom-content-left 4s;
     text-align: center;
-    width: 100%;
 }
 
 @keyframes footer-bottom-content-left {
